@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class ugsoft {
+
+	public static void main(String[] args) {
+		
+		System.out.println("My name is Josh");
+		System.out.println("I like playing football");
+		System.out.println("\"I am 6years old\"\n");
+		System.out.println("2022\\A\\KIT\\1739\\F is my registeration number");
+		
+		// you can also  make some math here
+		// sum and product
+		int x,y,z,sum,product;
+		x=2;
+		y=3;
+		z=4;
+		sum=x+y+z;
+		product=x*y*z;
+		System.out.println(sum);
+		System.out.println(product);
+		
+		//you can also in put you calculation and get answers
+		
+		Scanner scan = new Scanner(System.in);
+	        System.out.print("Enter the first number: ");
+	        double num1 = scan.nextDouble();
+	        System.out.print("Enter the second number: ");
+	        double num2 = scan.nextDouble();
+	        System.out.print("Enter the third number: ");
+	        double num3 = scan.nextDouble();
+	        scan.close();
+	        System.out.print("The average of entered numbers is:" + avr(num1, num2, num3) );
+	    }
+
+	  public static double avr(double a, double b, double c)
+	    {
+	        return (a + b + c) / 3;
+	        
+
+		
+	}
+}
